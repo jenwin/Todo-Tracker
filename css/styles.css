@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+}
+
+.todos-container {
+  background: -o-linear-gradient(to right top, #b7b1ff, #b0a9ff, #a8a2ff, #a19aff, #9993ff, #c48df4, #e588e4, #fe86d1, #ff9aac, #ffbc97, #ffe09e, #f7ffbf) fixed;
+  background: -webkit-linear-gradient(to right top, #b7b1ff, #b0a9ff, #a8a2ff, #a19aff, #9993ff, #c48df4, #e588e4, #fe86d1, #ff9aac, #ffbc97, #ffe09e, #f7ffbf) fixed;
+  background: linear-gradient(to right top, #b7b1ff, #b0a9ff, #a8a2ff, #a19aff, #9993ff, #c48df4, #e588e4, #fe86d1, #ff9aac, #ffbc97, #ffe09e, #f7ffbf) fixed;
+  border-radius: 1.5rem;
+  box-shadow: 5px 6.5px 5.8px #cfcfcf;
+  margin: 2rem auto;
+  min-width: 300px;
+  padding: 2.5rem 0 0.6rem 0.5rem;
+  text-align: center;
+  width: 30%;
+}
+
+/*user input, add button, todos list*/
+.input-container,
+.todos-list-container {
+  left: -0.2rem;
+  position: relative;
+}
+
+.todos-input {
+  border: 1px solid #fff;
+  border-radius: 1rem;
+  padding-left: 1rem;
+  width: 75%;
+}
+
+.list-container {
+  background-color: #fff;
+}
+
+.todos-input,
+.add-btn,
+.list-container {
+  height: 2.3rem;
+}
+
+.add-btn {
+  background-color: #66a3ff;
+  border: 1px solid #66a3ff;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  position: absolute;
+  right: 2.7rem;
+  width: 2.5rem;
+}
+
+.todos {
+  list-style-type: none;
+}
+
+.todos-list-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#todos-list,
+.completed-todos {
+  padding: 0;
+}
+
+.list-container {
+  border: 1px solid #fff;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem auto;
+  padding: 0.2rem;
+  width: 80%;
+}
+
+.checked-box,
+.todo-text,
+.delete-btn {
+  position: relative;
+  top: 0.3rem;
+}
+
+.todo-text {
+  font-size: 0.75rem;
+  padding-left: 0.3rem;
+  text-align: left;
+  top: 0.4rem;
+  width: 100%;
+}
+
+.checked-box {
+  margin-left: 1rem;
+}
+
+/*delete button*/
+.delete-btn {
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 0.7rem;
+  font-weight: bold;
+  height: 1.2rem;
+  margin-right: 1rem;
+  width: 1.3rem;
+}
+
+.delete-text {
+  font-size: 0.7rem;
+  font-weight: bold;
+  position: relative;
+  top: -0.05rem;
+}
+
+/*completed todos*/
+.completed-text {
+  font-size: 0.85rem;
+  font-weight: bold;
+  letter-spacing: 0.05rem;
+  margin-bottom: 0;
+  padding-left: 3.3rem;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.completed-line {
+  border-top: 1px dashed #000;
+  margin-left: 3rem;
+  width: 30%;
+}
+
+.completed-todos {
+  margin-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+/*strike through a todo*/
+.strike {
+  text-decoration: line-through;
+}
+
+/*footer*/
+.author {
+  bottom: 0;
+  color: #000;
+  font-size: 0.7rem;
+  font-weight: bold;
+  letter-spacing: 0.05rem;
+  padding-right: 1rem;
+  position: fixed;
+  right: 0;
+}

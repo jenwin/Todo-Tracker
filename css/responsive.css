@@ -1,0 +1,258 @@
+/*mobile portrait*/
+@media screen
+and ( min-width: 769px )
+and ( max-width: 1025px )
+and ( orientation: portrait ) {
+  .todos-container {
+    width: 45%;
+  }
+
+  .todos-input {
+    margin-left: -1.5rem;
+  }
+}
+
+@media screen
+and ( min-width: 416px )
+and ( max-width: 768px )
+and ( orientation: portrait ) {
+  .completed-line {
+    margin-left: 2.4rem;
+    width: 34%;
+  }
+
+  .completed-text {
+     padding-left: 2.8rem;
+  }
+}
+
+@media screen
+and ( min-width: 541px )
+and ( max-width: 768px )
+and ( orientation: portrait ) {
+  .todos-container {
+    width: 45%;
+  }
+
+  .todos-input {
+    margin-left: -1rem;
+  }
+
+  .add-btn {
+    right: 2.1rem;
+  }
+}
+
+@media screen
+and ( min-width: 416px )
+and ( max-width: 540px )
+and ( orientation: portrait ) {
+  .todos-container {
+    width: 65%;
+  }
+
+  .todos-input {
+    margin-left: -1rem;
+  }
+
+  .add-btn {
+    right: 2rem;
+  }
+}
+
+@media screen
+and ( max-width: 415px )
+and ( orientation: portrait ) {
+  .todos-container {
+    width: 100%;
+  }
+
+  .todos-input {
+    margin-left: -1.5rem;
+  }
+
+  .add-btn {
+    right: 2.4rem;
+  }
+}
+
+@media screen
+and ( max-width: 376px )
+and ( orientation: portrait ) {
+  .todos-input {
+    margin-left: -1rem;
+  }
+
+  .completed-line {
+    width: 35%;
+  }
+}
+
+@media screen
+and ( max-width: 320px )
+and ( orientation: portrait ) {
+  .add-btn {
+    right: 1.5rem;
+  }
+
+  .completed-line {
+    margin-left: 2.2rem;
+    width: 40%;
+  }
+
+  .completed-text {
+    padding-left: 2.6rem;
+  }
+}
+
+@media screen
+and ( max-width: 281px )
+and ( orientation: portrait ) {
+  body {
+    margin: 0;
+  }
+
+  .todos-input {
+    margin-left: 0;
+    width: 90%;
+  }
+
+  .add-btn {
+    right: 0.9rem;
+  }
+
+  .list-container {
+    width: 90%;
+  }
+
+  .completed-line {
+    margin-left: 1.2rem;
+  }
+
+  .completed-text {
+    padding-left: 1.5rem;
+  }
+}
+
+/*mobile landscape*/
+@media screen
+and ( min-width: 200px )
+and ( orientation: landscape ) {
+  .todos-container {
+    padding-bottom: 1rem;
+  }
+
+  .todos-input {
+    margin-left: -1.4rem;
+  }
+}
+
+@media screen
+and ( min-width: 1026px )
+and ( max-width: 1367px )
+and ( orientation: landscape ) {
+  .todos-container {
+    width: 35%;
+  }
+
+  .add-btn {
+    right: 2.9rem;
+  }
+}
+
+@media screen
+and ( min-width: 825px )
+and ( max-width: 1025px )
+and ( orientation: landscape ) {
+  .todos-container {
+    width: 45%;
+  }
+
+  .add-btn {
+    right: 2.8rem;
+  }
+}
+
+@media screen
+and ( max-width: 824px )
+and ( orientation: landscape ) {
+  .todos-container {
+    width: 50%;
+  }
+
+  .todos-input {
+    margin-left: -1.2rem;
+  }
+
+  .add-btn {
+    right: 2.5rem;
+  }
+}
+
+@media screen
+and ( max-width: 812px )
+and ( orientation: landscape ) {
+  .add-btn {
+    right: 2.4rem;
+  }
+
+  .todos-input {
+    margin-left: -1.1rem;
+  }
+}
+
+@media screen
+and ( max-width: 737px )
+and ( orientation: landscape ) {
+  .add-btn {
+    right: 2.2rem;
+  }
+}
+
+@media screen
+and ( max-width: 732px )
+and ( orientation: landscape ) {
+  .todos-container {
+    width: 60%;
+  }
+
+  .todos-input {
+    margin-left: -1.4rem;
+  }
+
+  .add-btn {
+    right: 2.6rem;
+  }
+}
+
+@media screen
+and ( max-width: 668px )
+and ( orientation: landscape ) {
+  .todos-input {
+    margin-left: -1.2rem;
+  }
+
+  .add-btn {
+    right: 2.4rem;
+  }
+}
+
+@media screen
+and ( max-width: 569px )
+and ( orientation: landscape ) {
+  .todos-input {
+    margin-left: -1.1rem;
+  }
+
+  .add-btn {
+    right: 2rem;
+  }
+
+  .completed-line {
+    margin-left: 2.3rem;
+  }
+
+  .completed-text {
+    padding-left: 2.5rem;
+  }
+}
