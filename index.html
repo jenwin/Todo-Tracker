@@ -13,7 +13,7 @@
   <div class="todos-container">
     <!-- user input -->
     <div class="input-container">
-      <input type="text" class="todos-input" placeholder="Enter a todo..." />
+      <input type="text" class="todos-input" aria-label="enter a todo" placeholder="Enter a todo..." />
       <button type="button" class="add-btn">+</button>
     </div>
 
@@ -25,7 +25,7 @@
       <!-- completed todos -->
       <div class="completed-line-text">
         <p class="completed-line"></p>
-        <p class="completed-text">Completed</p>
+        <p class="completed-text" aria-label="completed todos" tabindex="0">Completed</p>
       </div>
       <ul class="completed-todos">
       </ul>
@@ -34,7 +34,7 @@
 
   <!-- author -->
   <div>
-    <p class="author">
+    <p class="author" tabindex="0">
       © JENNIFER NGUYEN
     </p>
   </div>
