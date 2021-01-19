@@ -79,23 +79,16 @@ body {
   width: 80%;
 }
 
-.checked-box,
-.todo-text,
-.delete-btn {
-  position: relative;
-  top: 0.3rem;
+.checked-box {
+  margin: 0.5rem 0 0 1rem;
 }
 
 .todo-text {
   font-size: 0.75rem;
+  margin-top: 0.4rem;
   padding-left: 0.3rem;
   text-align: left;
-  top: 0.4rem;
   width: 100%;
-}
-
-.checked-box {
-  margin-left: 1rem;
 }
 
 /*delete button*/
@@ -107,8 +100,7 @@ body {
   font-size: 0.7rem;
   font-weight: bold;
   height: 1.2rem;
-  margin-right: 1rem;
-  width: 1.3rem;
+  margin: 0.35rem 1rem 0 0;
 }
 
 .delete-text {

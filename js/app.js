@@ -1,7 +1,7 @@
 $('.add-btn').click(addTodo);
 function addTodo() {
   const todos = $('.todos-input').val();
-  const checkBox = "<input type='checkbox' class='checked-box' />";
+  const checkBox = "<div><input type='checkbox' class='checked-box' /></div>";
   const deleteBtn = "<button type='button' class='delete-btn' aria-label='delete'><span class='delete-text'>x</span></button>";
   const todoList = "<div class='list-container'>" + checkBox + "<span class='todo-text' tabindex='0'>" + todos + "</span>" + deleteBtn + "</div>";
   const todoItem = "<li class='todos'>" + todoList + "</li>";
