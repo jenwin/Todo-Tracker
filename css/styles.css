@@ -93,21 +93,12 @@ body {
 
 /*delete button*/
 .delete-btn {
-  background-color: red;
-  border: 1px solid red;
-  border-radius: 50%;
+  background: none;
+  border: none;
   cursor: pointer;
   font-size: 0.7rem;
-  font-weight: bold;
   height: 1.2rem;
-  margin: 0.35rem 1rem 0 0;
-}
-
-.delete-text {
-  font-size: 0.7rem;
-  font-weight: bold;
-  position: relative;
-  top: -0.05rem;
+  margin: 0.3rem 0.6rem 0 0;
 }
 
 /*completed todos*/
