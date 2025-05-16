@@ -1,4 +1,4 @@
-# todo-list-jquery
+# Todo Tracker
 My version of the todo list with jquery.
 
 ## How to Start
