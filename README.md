@@ -1,7 +1,7 @@
 # Todo Tracker
 My version of the todo list with jquery.
 
-# Technologies
+## Technologies
 - JavaScript
 - JQuery
 - CSS3
