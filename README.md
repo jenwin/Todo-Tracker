@@ -7,8 +7,8 @@ My version of the todo list with jquery.
 - CSS3
 - HTML5
 
-## How to Start
-- Clone or Download
+## Live Demo
+[jenwin.github.io/Todo-Tracker](https://jenwin.github.io/Todo-Tracker/)
 
 ## License
 GNU General Public License v3.0
